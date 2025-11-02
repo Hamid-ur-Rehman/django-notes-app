@@ -28,4 +28,4 @@ EXPOSE 9000
 # RUN python manage.py collectstatic --noinput
 
 # Start the Django development server
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:9000"]
