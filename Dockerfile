@@ -20,7 +20,7 @@ RUN pip install --no-cache-dir mysqlclient \
 COPY . /app/backend/
 
 # Expose Django port
-EXPOSE 8000
+EXPOSE 9000
 
 # Run Django migrations automatically (optional but good for CI/CD)
 # You can uncomment these if needed:
